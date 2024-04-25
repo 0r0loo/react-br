@@ -1,7 +1,9 @@
 {
   "name": "react-br",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.mjs",
   "repository": "git@github.com:0r0loo/react-br.git",
   "author": "0r0loo <chotg5592@gmail.com>",
   "license": "MIT",
