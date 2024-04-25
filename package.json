@@ -1,0 +1,21 @@
+{
+  "name": "react-br",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:0r0loo/react-br.git",
+  "author": "0r0loo <chotg5592@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.79",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0 || ^17.0.0 || ^18.0.0"
+  }
+}
