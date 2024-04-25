@@ -10,13 +10,17 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup -d",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "devDependencies": {
     "@testing-library/react": "^15.0.4",
     "@types/react": "^18.2.79",
     "@types/react-dom": "^18.2.25",
+    "happy-dom": "^14.7.1",
     "prettier": "^3.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5",
     "vitest": "^1.5.2"
