@@ -5,6 +5,6 @@
 !README*
 !CHANGELOG*
 !dist/**/*.js
-!dist/**/*.js.map
+!dist/**/*.mjs
 !dist/**/*.d.ts
-!dist/**/*.css
+!dist/**/*.d.mts
