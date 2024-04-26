@@ -9,10 +9,15 @@
   "license": "MIT",
   "scripts": {
     "build": "tsup",
-    "dev": "tsup -d",
     "test": "vitest run",
     "test:watch": "vitest"
   },
+  "keywords": [
+    "react",
+    "next",
+    "br",
+    "nl2br"
+  ],
   "devDependencies": {
     "@testing-library/react": "^15.0.4",
     "@types/react": "^18.2.79",
